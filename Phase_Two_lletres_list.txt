@@ -1,0 +1,26 @@
+
+public class Lletres_Two_list {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char[]ch= {'j','o','y','c','e'};
+		
+		for (int i=0;i<5;i++) {
+		
+			if(ch[i] == 'a' || ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u' )
+	            System.out.println(ch[i] + " is vowel");
+	        else
+	            System.out.println(ch[i] + " is consonant");
+
+	    }
+	}
+		
+}
+
+RESULT ON SCREEN:
+j is consonant
+o is vowel
+y is consonant
+c is consonant
+e is vowel
